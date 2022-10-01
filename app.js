@@ -4,7 +4,7 @@
 // DOM GETTER METHODS
 // getElementById
 const nameDisplay = document.getElementById('name');
-const pronounDisplay= document.getElementById('pronoun');
+const favoriteDisplay = document.getElementById('pronoun');
 
 // DOM SETTER METHODS
 // textContent
@@ -20,11 +20,12 @@ updateBtn.addEventListener('click', () => {
     nameDisplay.textContent = nameInput.value;
 });
 
-const updatebutton = document.getElementById('update-button')
+const updatebutton = document.getElementById('update-button');
 updatebutton.addEventListener('click', () => {
     
-    const pronounInput = document.getElementById('pronoun-input');
+    const favoriteInput = document.getElementById('favorite-input');
 
-    pronounDisplay.textContent = pronounInput.value;
+    // eslint-disable-next-line no-undef
+    favoriteDisplay.textContent = favoriteInput.value;
 
 });
