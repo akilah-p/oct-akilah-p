@@ -27,4 +27,4 @@ updatebutton.addEventListener('click', () => {
 
     pronounDisplay.textContent = pronounInput.value;
 
-})
+});
