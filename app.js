@@ -22,7 +22,6 @@ updateBtn.addEventListener('click', () => {
 
 const updatebutton = document.getElementById('update-button')
 updatebutton.addEventListener('click', () => {
-    console.log('Updating pronouns');
     
     const pronounInput = document.getElementById('pronoun-input');
 
